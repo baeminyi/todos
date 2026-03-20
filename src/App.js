@@ -18,7 +18,7 @@ const COLORS = [
 function App() {
   const [todos, setTodos] = useState([
     { id: 1, text: "React 공부하기", done: false, color: "#555", date: "" },
-    { id: 2, text: "포트폴리오 완성하기", done: false, color: "#e07070", date: "" },
+    { id: 2, text: "포트폴리오 완성하기", done: false, color: "#555", date: "" },
     { id: 3, text: "영화 검색 앱 배포하기", done: false, color: "#555", date: "" },
   ]);
   const [input, setInput] = useState("");
